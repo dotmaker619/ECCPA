@@ -1,0 +1,69 @@
+{
+  "name": "ECCAPP",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bootstrap": "4.5.0",
+    "chart.js": "2.9.3",
+    "faker": "^4.1.0",
+    "gulp": "4.0.2",
+    "gulp-append-prepend": "1.0.8",
+    "history": "4.10.1",
+    "node-sass": "4.14.1",
+    "perfect-scrollbar": "1.5.0",
+    "react": "16.13.1",
+    "react-chartjs-2": "2.9.0",
+    "react-dom": "16.13.1",
+    "react-facebook-login": "^4.1.1",
+    "react-google-login": "^5.1.21",
+    "react-social-login-buttons": "^3.1.0",
+    "react-google-maps": "9.4.5",
+    "react-loader": "^2.4.7",
+    "react-loading-overlay": "^1.0.1",
+    "react-notifications": "^1.6.0",
+    "react-phone-input-2": "^2.13.7",
+    "react-redux": "^7.2.1",
+    "react-router-dom": "5.2.0",
+    "react-scripts": "3.4.1",
+    "react-spinners": "^0.9.0",
+    "reactstrap": "8.4.1",
+    "redux": "^4.0.5",
+    "redux-saga": "^1.1.3",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^5.1.1",
+    "sweetalert": "^2.1.2"
+  },
+  "scripts": {
+    "git": "npm run build && git add . && git commit -m 'someupdated' && git push",
+    "start": "react-scripts start",
+    "build:gulp": "react-scripts build && gulp licenses",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
+    "compile-sass": "node-sass src/assets/scss/now-ui-dashboard.scss src/assets/css/now-ui-dashboard.css",
+    "minify-sass": "node-sass src/assets/scss/now-ui-dashboard.scss src/assets/css/now-ui-dashboard.min.css --output-style compressed",
+    "map-sass": "node-sass src/assets/scss/now-ui-dashboard.scss src/assets/css/now-ui-dashboard.css --source-map true"
+  },
+  "optionalDependencies": {
+    "@types/googlemaps": "3.39.6",
+    "@types/markerclustererplus": "2.1.33",
+    "@types/react": "16.9.36",
+    "jquery": "3.5.1",
+    "typescript": "3.9.5"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

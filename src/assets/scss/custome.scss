@@ -1,0 +1,245 @@
+.auth-wrap {
+    height: 100vh;
+    background: #f1efef;
+    display: flex;
+    .auth-form {
+        width: 520px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        .card {
+            padding: 10px;
+        }
+        .auth-form-header {
+            font-size: 14px;
+            font-weight: 900;
+            color: gray;
+            text-transform: uppercase;
+        }
+        .social-header {
+            font-size: 12px;
+            font-weight: 900;
+            color: gray;
+        }
+        .facebook-btn {
+            color: white;
+            background-color: rgb(0, 89, 255);
+        }
+        .socail-btn-txt {
+            font-size: 13px;
+        }
+    }
+    .main {
+        overflow: auto;
+        margin-top: 66px;
+        padding-bottom: 60px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        background: #f1efef;
+        padding-top: 30px;
+    }
+    .footer {
+        width: -webkit-fill-available;
+        z-index: 1111;
+    }
+}
+.main-panel {
+    .footer {
+        width: inherit;
+        z-index: 1111;
+    }
+}
+
+.auth-header {
+    background-color: #0d1182;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    color: white;
+    p {
+        margin-bottom: unset !important;
+        font-family: fantasy;
+    }
+    .big {
+        font-size: 30px;
+    }
+}
+// .card-body canvas {
+//     // min-height: 302px;
+// }
+
+th {
+    text-transform: uppercase;
+    font-weight: 900 !important;
+    font-size: 12px !important;
+    color: gray;
+}
+.main-area {
+    min-height: 635px;
+    overflow: auto;
+}
+.table-action:hover {
+    cursor: pointer;
+}
+
+.content {
+    .main-area {
+        padding: 30px;
+        .btn-switch .active {
+            background: #0d1182;
+        }
+        .category-header {
+            background: #0d1182;
+            color: white;
+            min-height: 35px;
+            font-size: 14px;
+            padding: 10px;
+        }
+        .text-uppercase {
+            text-transform: uppercase;
+            font-weight: 900;
+        }
+        .net-worth-header {
+            background: lightgray;
+        }
+    }
+    .date-range input {
+        margin-bottom: 10px;
+    }
+}
+
+.css-42igfv {
+    position: relative;
+    top: 45vh;
+}
+
+.react-tel-input {
+    input {
+        width: 100% !important;
+        border-radius: 25px !important;
+    }
+    .flag-dropdown {
+        border-radius: 25px 0 0 25px !important;
+    }
+}
+
+* a:hover {
+    cursor: pointer;
+}
+.sidebar .nav p,
+.off-canvas-sidebar .nav p {
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.line-chart-area {
+    canvas {
+        min-height: 250px;
+    }
+}
+.social-google {
+    button {
+        margin: auto;
+    }
+}
+.social-fb {
+    button {
+        height: 43px !important;
+    }
+}
+
+span.termsCondition {
+    color: blue;
+    cursor: pointer;
+}
+
+span.termsCondition:hover {
+    text-decoration-line: underline;
+}
+
+.term-container {
+    padding-top: 50px;
+    width: 70%;
+    .back-signup-area {
+        position: fixed;
+        width: 67%;
+        background: white;
+    }
+    .main-board {
+        padding: 50px;
+        .header {
+            font-size: 24px;
+            font-weight: 900;
+        }
+        .sub-header {
+            font-size: 19px;
+            font-weight: 600;
+        }
+        .content {
+            padding: 10px;
+            font-size: 17px;
+        }
+    }
+}
+.term-condition {
+    width: 100%;
+    overflow: auto;
+    padding-bottom: 40px;
+}
+.back-signup {
+    cursor: pointer;
+}
+
+.badge-text {
+    font-size: 12px;
+}
+.debt-info {
+    font-size: 15px;
+    font-weight: 900;
+}
+
+@media (max-width: 1380px) {
+    .creditor-table {
+        font-size: 12px;
+        th {
+            font-size: 11px !important;
+        }
+    }
+}
+
+@media (max-width: 1300px) {
+    .creditor-table {
+        font-size: 11px;
+        th {
+            font-size: 10.5px !important;
+        }
+    }
+}
+
+@media (max-width: 1250px) {
+    .creditor-table {
+        font-size: 10.5px;
+        th {
+            font-size: 10.5px !important;
+        }
+    }
+}
+
+//  customize date input
+[type="date"] {
+    background: #fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png) 94% 50%
+        no-repeat;
+}
+[type="date"]::-webkit-inner-spin-button {
+    display: none;
+}
+[type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+}
+
+.swal-button-container button.swal-button--danger {
+    background-color: red !important;
+}
